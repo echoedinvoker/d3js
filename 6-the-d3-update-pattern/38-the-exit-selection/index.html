@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SVG Basics</title>
+</head>
+
+<body>
+
+  <div class="canvas">
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-firestore.js"></script>
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCdHc6vd-A8cwTaveRl2zjK0sMTWXb50Xk",
+      authDomain: "udemy-d3-firebase-59e00.firebaseapp.com",
+      projectId: "udemy-d3-firebase-59e00",
+      storageBucket: "udemy-d3-firebase-59e00.appspot.com",
+      messagingSenderId: "131268824283",
+      appId: "1:131268824283:web:5a4fb5bb9451ef06bb50fe",
+      measurementId: "G-JB6V0VEEG1"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
